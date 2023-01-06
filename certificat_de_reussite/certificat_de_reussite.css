@@ -1,0 +1,125 @@
+body {
+background-color: #ffffd0;
+}
+
+#banner1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_title1 {
+    
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('palette.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    width: 60%;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+
+    #banner1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner_title1 {
+        display: flex;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('palette.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+    .img1 {
+        width: 90%;
+        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #banner1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner_title1 {
+        display: flex;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('palette.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+    .img1 {
+        width: 80%;
+        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    #banner1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner_title1 {
+        display: flex;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('palette.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+    .img1 {
+        width: 80%;
+        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+    }
+
+}
